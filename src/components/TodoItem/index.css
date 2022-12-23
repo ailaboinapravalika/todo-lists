@@ -1,0 +1,39 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #deeafc;
+  border-radius: 8px;
+
+  background-color: transparent;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.completed {
+  background-color: rgba(0, 0, 0, 0.2);
+  order: 1;
+}
+.task-bg {
+  display: flex;
+  align-items: center;
+}
+.task-checkbox {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  margin-right: 12px;
+}
+.task-text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+}
+.delete-btn {
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  padding: 0px;
+  color: #131414;
+  background-color: transparent;
+}
